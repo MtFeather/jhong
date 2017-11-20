@@ -1,0 +1,22 @@
+#!/bin/bash
+#偵測流量的程式
+
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+LANG=C
+export LC_ALL=C
+netrxkb=0
+nettxkb=0
+for dev in $( ip -4 -o addr show | grep -v ' lo ' | awk '{print $2}' )
+do
+	netrxkb="${netrxkb}+$(sar -n DEV | grep ${dev} | grep -v 'Average' | tail -n 1 | awk '{print $5}')"
+	nettxkb="${nettxkb}+$(sar -n DEV | grep ${dev} | grep -v 'Average' | tail -n 1 | awk '{print $6}')"
+done
+netrxb=$( echo "scale=2; (${netrxkb})*1024" | bc )
+nettxb=$( echo "scale=2; (${nettxkb})*1024" | bc )
+UPtime=`/usr/bin/uptime | awk '{print $3""$4""$5}'`
+echo $netrxb
+echo $nettxb
+#echo $net_received
+#echo $net_trans
+echo $UPtime
+hostname

@@ -1,0 +1,13 @@
+WorkDir:/jhong/jhong_manager/www/mrtg/
+Language:utf8
+Target[cpu]:`/jhong/jhong_manager/mrtg_scripts/mrtg.cpu`
+MaxBytes[cpu]:100
+Options[cpu]: gauge,growright
+YLegend[cpu]:CPU loading (%)
+ShortLegend[cpu]: %
+LegendI[cpu]:I/O Wait:
+LegendO[cpu]:CPU used:
+Title[cpu]:CPU Loading
+PageTop[cpu]:<h1 style='line-height: 0.6;'>CPU 使用率統計表<br /><br /><span style='font-size: 12pt; color: red' >I/O Wait 越高代表系統磁碟或網路效能越差<br /><span style='color: blue;'>CPU used 越高代表 CPU 的效能不足了</span></span></h1>
+
+

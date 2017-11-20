@@ -1,0 +1,12 @@
+WorkDir:/jhong/jhong_manager/www/mrtg/
+Language:utf8
+Target[disk]:`/jhong/jhong_manager/mrtg_scripts/mrtg.disk`
+MaxBytes[disk]: 125000000
+Title[disk]: disk_status
+PageTop[disk]: <H1 style='line-height: 0.6;'>硬碟讀寫統計表<br /><br /><span style='font-size: 12pt; color: red' >read out 代表磁碟讀取的資料量<br /><span style='color: blue;'>write in 代表寫入磁碟的資料量</span></span></H1>
+Options[disk]: growright,nopercent,gauge,integer
+YLegend[disk]: Byte per second
+ShortLegend[disk]:Byte
+LegendI[disk]: read out:
+LegendO[disk]: write in:
+

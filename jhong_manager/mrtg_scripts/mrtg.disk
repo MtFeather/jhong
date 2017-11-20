@@ -1,0 +1,19 @@
+#!/bin/bash
+LANG=C
+export LC_ALL=C
+devname=$(lsblk -l -o SIZE,MAJ:MIN,TYPE | grep disk | sed 's/G//g' | sed 's/T//g' | sort -n | tail -n 1 | awk '{print $2}' | cut -d ':' -f 1)
+devname="dev${devname}-0"
+disktemp=$( sar -d | grep  "$devname" | grep -v 'Average' | awk '{print $4,$5}' | tail -n 1  )
+disktemp1=$( echo ${disktemp} | awk '{print $1}' )
+disktemp2=$( echo ${disktemp} | awk '{print $2}' )
+diskrd=$( echo "scale=5;${disktemp1}*512" | bc  )
+diskwr=$( echo "scale=5;${disktemp2}*512" | bc  )
+UPtime=`/usr/bin/uptime | awk '{print $3""$4""$5}'`
+
+#echo $disktemp1
+#echo $disktemp2
+
+echo $diskrd
+echo $diskwr
+echo $UPtime
+hostname

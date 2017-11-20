@@ -1,0 +1,374 @@
+.account_table{
+	width: 98%;
+	border-collapse:collapse;
+	margin:30px;
+	margin-left:10px;
+	margin-left:auto; 
+        margin-right:auto;
+}
+.account_table th{
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#FFFFFF;
+	text-align:center;
+	padding:1px;
+	/*margin:0px;*/
+	background-color:#483d8b;
+	border: 2px solid #ffffff;
+}
+.account_table td{
+	border: 2px solid #ffffff;
+	font-family:"Arial";
+	font-size:12px;
+	text-align:center;
+	padding:5px;
+	margin:0px;
+	background-color:#E7CDFF;
+	/*border-bottom: 1px solid #ffffff;*/
+}
+.account_table1{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+        margin-left:auto;
+        margin-right:auto;
+}
+.account_table1 th{
+        font-size:12px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color:#483d8b;
+        border: 2px solid #ffffff;
+}
+.account_table1 td{
+        border: 2px solid #ffffff;
+        font-family:"Arial";
+        font-size:12px;
+        text-align:center;
+        padding:5px;
+        margin:0px;
+        background-color:#E7CDFF;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.show_table{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+}
+.show_table th{
+        font-size:12px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        width:10%;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color: #ffffff;
+        border: 2px solid #ffffff;
+}
+.show_table td{
+        border: 2px solid #ffffff;
+        font-family:"Arial";
+        font-size:12px;
+        text-align:center;
+        padding:5px;
+        margin:0px;
+        background-color:#ffffff;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+
+.speakers_table{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+}
+.speakers_table th{
+        font-size:12px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        width:10%;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color: #ffffff;
+        border: 2px solid #ffffff;
+}
+.speakers_table td{
+        border: 2px solid #ffffff;
+        font-family:"Arial";
+        font-size:12px;
+        padding:5px;
+        margin:0px;
+        background-color:#ffffff;
+	border-style:dashed;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.modaccount_table{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+        margin-left:auto;
+margin-right:auto;
+}
+.modaccount_table th{
+        font-size:12px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        width:10%;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color:#483d8b;
+}
+.modaccount_table td{
+        font-family:"Arial";
+        font-size:12px;
+        text-align:center;
+        padding:5px;
+        margin:0px;
+        background-color:#E7CDFF;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.crontab_table{
+        width: 98%;
+        border-collapse:collapse;
+        margin-left:10px;
+        margin-left:auto;
+	margin-right:auto;
+}
+.crontab_table th{
+        font-size:12px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color:#483d8b;
+        border: 2px solid #ffffff;
+}
+.crontab_table td{
+        border: 2px solid #ffffff;
+        font-family:"Arial";
+        font-size:12px;
+        text-align:center;
+        padding:5px;
+        margin:0px;
+        background-color:#E7CDFF;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.crontab_table td a{
+        color:red;
+        font-size:12pt;
+        text-align:left;
+}
+
+.crontablook_table{
+        width: 100%;
+        border-collapse:collapse;
+        margin-left:10px;
+        margin-left:auto;
+        margin-right:auto;
+        border: 2px hidden #000000;
+}
+.crontablook_table th{
+        font-size:15pt;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        padding:1px;
+        /*margin:0px;*/
+        background-color:#483d8b;
+}
+.crontablook_table td{
+	border: 2px hidden #BB73FF;
+        font-size:12pt;
+        text-align:center;
+        font-family:"Arial";
+        padding:5px;
+        margin:0px;
+        border-bottom-color:#BB73FF;
+        border-style:dashed;
+}
+.crontablook_table td a{
+        color:red;
+        font-size:12pt;
+        text-align:left;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+
+.dns_table{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+        margin-left:auto;
+        margin-right:auto;
+}
+.dns_table th,caption {
+        font-size:12px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color:#483d8b;
+        border: 2px solid #ffffff;
+}
+.dns_table td{
+        border: 2px solid #ffffff;
+        font-family:"Arial";
+        font-size:12px;
+        text-align:center;
+        padding:5px;
+        margin:0px;
+        background-color:#E7CDFF;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.httpd_table{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+        margin-left:auto;
+        margin-right:auto;
+}
+.httpd_table th{
+        font-size:18px;
+        font-weight:bold;
+        letter-spacing:1px;
+        color:#FFFFFF;
+        text-align:center;
+        padding:1px;
+        /*margin:0px;*/
+        background-color:#483d8b;
+        border: 2px solid #ffffff;
+}
+.httpd_table td{
+        border: 2px solid #ffffff;
+        font-family:"Arial";
+        font-size:16px;
+        padding:5px;
+        margin:0px;
+        background-color:#E7CDFF;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.dns_msg{
+        width: 98%;
+        border-collapse:collapse;
+        margin:30px;
+        margin-left:10px;
+        margin-left:auto;
+        margin-right:auto;
+}
+.dns_msg td{
+        border: 2px solid #484891;
+        font-family:"Arial";
+        font-size:12px;
+        text-align:left;
+        padding:5px;
+        margin:0px;
+        background-color:#E7CDFF;
+        /*border-bottom: 1px solid #ffffff;*/
+}
+.post_table{
+	width: 98%;
+	border-collapse:collapse;
+	margin-left:auto; 
+        margin-right:auto;
+}
+.post_table th{
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#FFFFFF;
+	text-align:left;
+	padding:5px;
+	background-color:#483d8b;
+	border: 2px solid #ffffff;
+	line-height: 1.3;
+}
+.post_table td{
+	border: 2px solid #ffffff;
+	font-family:"Arial";
+	font-size:10pt;
+	text-align:left;
+	padding:5px;
+	margin:0px;
+	background-color:#E7CDFF;
+	line-height: 1.3;
+}
+.post_table td:hover {
+	border: 2px solid green;
+}
+
+.info_table{
+	width: 98%;
+	border-collapse:collapse;
+}
+.info_table td{
+	font-family:"Arial";
+	font-size:12pt;
+	text-align:left;
+	padding:5px;
+	margin:0px;
+	line-height: 1.3;
+	border: 1px none green;
+}
+.info_table td:hover {
+	border: 1px solid green;
+}
+
+tr.hint td {
+	background-color: #ffd78c;
+}
+
+.state {
+	width: 670px;
+	border: #9291FF groove 3px; 
+	background-color:#E7CDFF; 
+	text-align:center; 
+	margin-top: 20px; 
+	padding: 0;
+}
+
+.state legend {
+	text-align:left; 
+	font-size:14pt; 
+	color:#181789; 
+}
+
+.state table {
+	width: 100%;
+	border: 0px solid gray;
+	padding: 0;
+}
+
+.state table td {
+	text-align: left;
+}
+
+.state table td pre {
+	line-height: 1.2;
+	letter-spacing: 2px;
+	font-family: Consolas;
+	width: 670px;
+	height: 450px;
+	margin:0; 
+	font-size: 10pt; 
+	color: black;
+	overflow: auto;
+}

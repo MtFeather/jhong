@@ -1,0 +1,4 @@
+/var/www/html localhost testing1
+/jhong/www/web web testing1
+/jhong/www/www www testing1
+/jhong/www/html html testing10
